@@ -1,0 +1,16 @@
+ETHEREUM_JSONRPC_HTTP_URL = https://anvil-render-q5wl.onrender.com
+ETHEREUM_JSONRPC_TRACE_URL = https://anvil-render-q5wl.onrender.com
+NETWORK = Ethereum
+SUBNETWORK = Anvil Fork
+COIN = ETH
+COIN_NAME = Ether
+CHAIN_ID = 1
+PORT = 4000
+DATABASE_URL = postgresql://user:password@host:5432/blockscout
+SECRET_KEY_BASE = 56a7b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7
+DISABLE_EXCHANGE_RATES = true
+ENABLE_TXS_STATS = false
+SHOW_PRICE_CHART = false
+SHOW_TXS_CHART = false
+HEART_BEAT_TIMEOUT = 60
+BLOCKSCOUT_PROTOCOL = http
